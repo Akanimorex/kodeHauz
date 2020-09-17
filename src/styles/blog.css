@@ -1,0 +1,21 @@
+.blog-card {
+    max-width: 520px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius:0px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+  }
+
+.card-wrap {
+    /* display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(3fr, minmax(100px, 3fr));
+    grid-template-rows: repeat(auto, 50px);
+    grid-auto-rows: minmax(10px, auto);
+    align-items: center;
+    justify-content: space-between; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
